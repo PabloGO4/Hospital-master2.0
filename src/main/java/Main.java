@@ -19,7 +19,7 @@ public class Main {
             em.getTransaction().begin();
             em.persist(tr);
             em.persist(t);
-            em.persist(c);
+            em.persist(c);wds
 
             System.out.println(c);
             em.getTransaction().commit();
